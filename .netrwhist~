@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='ftp://biofan.com.pl//opisy/'
+let g:netrw_dirhist_2='ftp://biofan.com.pl//opisy/schneekoppe/'
+let g:netrw_dirhist_3='ftp://biofan.com.pl//opisy/schneekoppe/musli/'
+let g:netrw_dirhist_4='ftp://biofan.com.pl//'
+let g:netrw_dirhist_5='ftp://biofan.com.pl//opisy/'
+let g:netrw_dirhist_6='ftp://biofan.com.pl//opisy/schneekoppe/'
+let g:netrw_dirhist_7='ftp://biofan.com.pl//opisy/schneekoppe/musli/'
+let g:netrw_dirhist_8='C:/Projekty/Biofan'

@@ -1,0 +1,129 @@
+snippet 2kolumny
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+	<title>${1:}</title>
+	<link
+	href="http://www.biofan.com.pl/biofan.ico"
+	rel="shortcut icon" />
+	<link href="../../../ss/stylBiofanOpisy.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<script type="text/javascript" src="../../../ss/hover.js"">
+	</script>
+	<img alt="Produkt firmy ${2:}" src="../../../gf/naglowki/$2.png" />
+	<h2>$1</h2>
+	<p class="opis">${3}</p>
+	<p class="opis">
+		<span class="bolde">Skład:</span>
+		${4}
+	</p>
+	<table class="products">
+	<thead>
+	<tr>
+	<td><span class="bolde">Wartość&nbsp; odżywcza&nbsp;</span></td>
+	<td><span class="bolde">${5}</span></td>
+	<td class="last"><span class="bolde">${6:na 100 g}</span></td>
+	</tr>
+	</thead>
+	<tbody>
+
+	<tr>
+	<td>Wartość energ.&nbsp;</td>
+	<td>`$7*4.185` kJ / ${7:} kcal&nbsp;</td>
+	<td class="last"> kJ /  kcal</td>
+	</tr>
+	<tr>
+	<td>Białko&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr>
+	<td>Węglowodany&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr style="font-size: 90%">
+	<td >W tym cukier:&nbsp;</td>
+	<td>&nbsp; g</td>
+	<td class="last" > g</td>
+	</tr>
+	<tr>
+	<td>Tłuszcz&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr style="font-size: 90%">
+	<td>w tym nasycone kw. tłuszczowe&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr>
+	<td>Błonnik&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr>
+	<td>Sód&nbsp;</td>
+	<td> g&nbsp;</td>
+	<td class="last"> g</td>
+	</tr>
+	<tr>
+	<td>Witamina B 1&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>Witamina B 2&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>Witamina B6&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>kwas pantotenowy&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>kwas foliowy&nbsp;</td>
+	<td> &micro;g&nbsp;</td>
+	<td class="last"> &micro;g </td>
+	</tr>
+	<tr>
+	<td>Niacyna&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>Witamina B 12&nbsp;</td>
+	<td> &micro;g&nbsp;</td>
+	<td class="last"> &micro;g </td></tr>
+	<tr>
+	<td>Witamina C&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	 </tr>
+	<tr>
+	<td>Witamina E&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	<tr>
+	<td>Biotyna&nbsp;</td>
+	<td> mg&nbsp;</td>
+	<td class="last"> mg </td>
+	</tr>
+	</tbody>
+	</table>
+	<p class="opis" style="font-size: 90%">* - % zalecanego dziennego zapotrzebowania.</p>
+	<p class="opis">Informacja dla chorych na cukrzycę: 
+	<span style="float: right; clear: both; text-align: right; margin-right: 3em;">
+	1BE=18 g<br /> WB=0.4<br />WT=0.4</span></p>
+	<div style="float: right; clear: both"><a href="javascript:window.print()" class="print">DRUKUJ 
+			  STRONĘ</a></div>
+	</body>
+	</html>

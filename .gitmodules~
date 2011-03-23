@@ -6,4 +6,4 @@
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/commandt"]
 	path = bundle/commandt
-	url = http://git,wincent.com/projects/command-t.git
+	url = git://git.wincent.com/command-t.git

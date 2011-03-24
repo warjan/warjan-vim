@@ -12,7 +12,7 @@ let g:surround_{char2nr("i")} = "{% if\1 \r..*\r &\1%}\r{% endif %}"
 let g:surround_{char2nr("w")} = "{% with\1 \r..*\r &\1%}\r{% endwith %}"
 let g:surround_{char2nr("c")} = "{% comment\1 \r..*\r &\1%}\r{% endcomment %}"
 let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"
-nmap <leader>v :edit $HOME/whp-vimrc/_vimrc<CR>
+nmap <leader>v :edit $HOME/_vimrc<CR>
 nmap <leader>l :set list!<CR>
 map <leader>f :CommandT<CR>
 

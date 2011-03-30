@@ -4,7 +4,7 @@ call pathogen#runtime_append_all_bundles()
 filetype on
 source $VIM/_vimrc
 if has("autocmd")
-	autocmd bufwritepost _vimrc source $MYVIMRC
+	autocmd bufwritepost _vimrc source $HOME/vimfiles/_vimrc
 endif
 let mapleader = ','
 let g:surround_{char2nr("b")} = "{% block\1 \r..*\r &\1%}\r{% endblock %}"
@@ -70,4 +70,3 @@ set laststatus=2
 set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
 colorscheme desert
-set backupcopy=yes

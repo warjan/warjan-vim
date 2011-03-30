@@ -12,7 +12,7 @@ let g:surround_{char2nr("i")} = "{% if\1 \r..*\r &\1%}\r{% endif %}"
 let g:surround_{char2nr("w")} = "{% with\1 \r..*\r &\1%}\r{% endwith %}"
 let g:surround_{char2nr("c")} = "{% comment\1 \r..*\r &\1%}\r{% endcomment %}"
 let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"
-nmap <leader>v :edit $HOME/_vimrc<CR>
+nmap <leader>v :edit $HOME/vimfiles/_vimrc<CR>
 nmap <leader>l :set list!<CR>
 map <leader>f :CommandT<CR>
 
@@ -63,7 +63,7 @@ set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
 set listchars=tab:▸\ ,eol:¬,trail:¶
-set guifont+=Envy\ Code\ R:cEASTEUROPE:h12
+set guifont+=Droid\ Sans\ Mono:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2

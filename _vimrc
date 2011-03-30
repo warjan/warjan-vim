@@ -1,3 +1,4 @@
+set backupcopy=yes
 filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
@@ -54,6 +55,7 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd fileType javascript set omnifunc=javascriptcomplete#Complete
 autocmd fileType html set omnifunc=htmlcomplete#Complete
 autocmd fileType css set omnifunc=csscomplete#Complete
+set relativenumber
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -62,10 +64,10 @@ set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
 set listchars=tab:▸\ ,eol:¬,trail:¶
-set guifont+=Anonymous:cEASTEUROPE:h14
+set guifont+=Anonymous:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
-set statusline=%<%f\ %h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
 colorscheme desert

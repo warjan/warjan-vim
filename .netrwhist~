@@ -1,9 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='C:/Projekty/Biofan'
-let g:netrw_dirhist_2='C:/Users/Wojtek/vimfiles/bundle/snipmate'
-let g:netrw_dirhist_3='C:/Users/Wojtek/vimfiles/bundle/snipmate/plugin'
-let g:netrw_dirhist_4='C:/Users/wzory/vimfiles/.git'
-let g:netrw_dirhist_5='C:/Users/wzory/vimfiles'
-let g:netrw_dirhist_6='D:/Projekty/Podpisy'
-let g:netrw_dirhist_7='D:/Projekty/Podpisy/Wzory'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='C:/Users/wzory/vimfiles/bundle'
+let g:netrw_dirhist_2='C:/Users/wzory/vimfiles/bundle/snipmate'
+let g:netrw_dirhist_3='C:/Users/wzory/vimfiles/bundle/snipmate/snippets'

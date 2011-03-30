@@ -15,6 +15,7 @@ let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"
 nmap <leader>v :edit $HOME/vimfiles/_vimrc<CR>
 nmap <leader>l :set list!<CR>
 map <leader>f :CommandT<CR>
+map <leader>r :set relativenumber!<CR>
 
 let g:last_relative_dir = ''
 nnoremap \1 :call RelatedFile ("models.py")<cr>
@@ -54,7 +55,6 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd fileType javascript set omnifunc=javascriptcomplete#Complete
 autocmd fileType html set omnifunc=htmlcomplete#Complete
 autocmd fileType css set omnifunc=csscomplete#Complete
-set relativenumber
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -62,11 +62,11 @@ set softtabstop=4
 set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
-set listchars=tab:▸\ ,eol:¬,trail:¶
+set listchars=tab:―\ ,eol:¬,trail:¶
 set guifont+=Droid\ Sans\ Mono:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
 set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
-colorscheme desert
+colorscheme autumn2

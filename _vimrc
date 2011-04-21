@@ -2,7 +2,8 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 filetype on
-source $VIM/_vimrc
+syntax on
+set backspace=indent,eol,start
 if has("autocmd")
 	autocmd bufwritepost _vimrc source $HOME/vimfiles/_vimrc
 endif
@@ -16,6 +17,7 @@ nmap <leader>v :edit $HOME/vimfiles/_vimrc<CR>
 nmap <leader>l :set list!<CR>
 map <leader>f :CommandT<CR>
 map <leader>r :set relativenumber!<CR>
+map <leader>c :set cursorline!<CR>
 
 let g:last_relative_dir = ''
 nnoremap \1 :call RelatedFile ("models.py")<cr>

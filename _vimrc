@@ -71,4 +71,5 @@ set guioptions-=T
 set laststatus=2
 set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
-colorscheme autumn2
+set background=light
+colorscheme solarized

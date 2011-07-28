@@ -2,7 +2,8 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 filetype on
-source $VIM/_vimrc
+syntax on
+set backspace=indent,eol,start
 if has("autocmd")
 	autocmd bufwritepost _vimrc source $HOME/vimfiles/_vimrc
 endif
@@ -16,6 +17,7 @@ nmap <leader>v :edit $HOME/vimfiles/_vimrc<CR>
 nmap <leader>l :set list!<CR>
 map <leader>f :CommandT<CR>
 map <leader>r :set relativenumber!<CR>
+map <leader>c :set cursorline!<CR>
 
 let g:last_relative_dir = ''
 nnoremap \1 :call RelatedFile ("models.py")<cr>
@@ -63,11 +65,11 @@ set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
 set listchars=tab:―\ ,eol:¬,trail:¶
-set guifont+=Anonymous\ Pro:cEASTEUROPE:h11
+set guifont+=Droid\ Sans\ Mono:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
 set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
-colorscheme autumn2
-set nobackup
+set background=light
+colorscheme solarized

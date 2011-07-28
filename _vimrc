@@ -63,10 +63,11 @@ set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
 set listchars=tab:―\ ,eol:¬,trail:¶
-set guifont+=Droid\ Sans\ Mono:cEASTEUROPE:h11
+set guifont+=Anonymous\ Pro:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
 set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
 language messages en
 colorscheme autumn2
+set nobackup

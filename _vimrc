@@ -64,8 +64,8 @@ set softtabstop=4
 set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
-set listchars=tab:―\ ,eol:¬,trail:¶
-set guifont+=Droid\ Sans\ Mono:cEASTEUROPE:h11
+set listchars=tab:⌦\ ,eol:¬,trail:¶
+set guifont+=Anonymous\ Pro:cEASTEUROPE:h11
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
@@ -73,3 +73,4 @@ set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\
 language messages en
 set background=light
 colorscheme solarized
+iab { {}<Up>

@@ -15,7 +15,7 @@ let g:surround_{char2nr("c")} = "{% comment\1 \r..*\r &\1%}\r{% endcomment %}"
 let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"
 nmap <leader>v :edit $HOME/vimfiles/_vimrc<CR>
 nmap <leader>l :set list!<CR>
-map <leader>f :CommandT<CR>
+map <leader>f :CtrlP<CR>
 map <leader>r :set relativenumber!<CR>
 map <leader>c :set cursorline!<CR>
 

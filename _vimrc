@@ -74,3 +74,6 @@ language messages en
 set background=light
 colorscheme solarized
 iab { {}<Up>
+fun MakeDimensions()
+    :%substitute/\s\{2\}/ /g | %substitute/\s\{2\}/ /g | %s/\s/×/g | %s/$/ mm
+endfun

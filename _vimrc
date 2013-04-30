@@ -6,6 +6,7 @@ syntax on
 set backspace=indent,eol,start
 if has("autocmd")
 	autocmd bufwritepost _vimrc source $HOME/vimfiles/_vimrc
+    autocmd FocusLost * silent! wa
 endif
 let mapleader = ','
 let g:surround_{char2nr("b")} = "{% block\1 \r..*\r &\1%}\r{% endblock %}"
@@ -65,7 +66,7 @@ set termencoding=cp1250
 set enc=utf-8
 set fencs=ucs-bom,utf-8,iso-8859-2,cp1250
 set listchars=tab:⌦\ ,eol:¬,trail:¶
-set guifont+=Anonymous\ Pro:cEASTEUROPE:h11
+set guifont+=Inconsolata:cEASTEUROPE:h12
 set guioptions-=m 
 set guioptions-=T 
 set laststatus=2
@@ -73,7 +74,7 @@ set statusline=%<%f\ %y%h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\
 language messages en
 set background=light
 colorscheme solarized
-iab { {}<Up>
+iab { {}<Up>
 fun MakeDimensions()
     :%substitute/\s\{2\}/ /g | %substitute/\s\{2\}/ /g | %s/\s/×/g | %s/$/ mm
 endfun

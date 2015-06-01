@@ -16,9 +16,6 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/zencoding"]
-	path = bundle/zencoding
-	url = https://github.com/mattn/zencoding-vim.git
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -34,3 +31,9 @@
 [submodule "bundle/vimorganizer"]
 	path = bundle/vimorganizer
 	url = https://github.com/hsitz/VimOrganizer.git
+[submodule "budnle/emmet-vim"]
+	path = budnle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

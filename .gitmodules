@@ -31,9 +31,6 @@
 [submodule "bundle/vimorganizer"]
 	path = bundle/vimorganizer
 	url = https://github.com/hsitz/VimOrganizer.git
-[submodule "budnle/emmet-vim"]
-	path = budnle/emmet-vim
-	url = https://github.com/mattn/emmet-vim.git
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git

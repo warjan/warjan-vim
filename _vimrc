@@ -89,3 +89,10 @@ fun! MakeDimensions()
 endfun
 nnoremap <Up> gk
 nnoremap <Down> gj
+
+" Konfiguracja połączenia scp
+let g:netrw_cygwin = 0
+let g:netrw_scp_cmd = 'pscp.exe -P 22 -pw bitnami -scp'
+let g:netrw_sftp_cmd = 'psftp.exe -P 22 -pw bitnami -sftp'
+let g:netrw_list_cmd = 'plink.exe -P 22 -pw bitnami bitnami@192.168.140.64 ls -Fa '
+let g:netrw_ssh_cmd = 'plink -T -ssh'

@@ -1,9 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='ftp://pinb@77.79.234.160:21/'
-let g:netrw_dirhist_2='D:/PRJ/www/Pozycjonowanie/Aktualizacja danych i opisów 12-2012'
-let g:netrw_dirhist_3='D:/Projekty'
-let g:netrw_dirhist_4='D:/Projekty/1 rząd wycięć na podkładki EURO'
-let g:netrw_dirhist_5='D:/Projekty/Podpisy'
-let g:netrw_dirhist_6='C:/Users/wzory/Documents/My Dropbox'
-let g:netrw_dirhist_7='D:/Projekty/Strona maresnet.pl'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='scp://bitnami@192.168.140.64//opt/bitnami/apps/wordpress/htdocs/wp-content/themes/'
+let g:netrw_dirhist_2='scp://bitnami@192.168.140.64//opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mares-test-theme/'
+let g:netrw_dirhist_3='ftp://maresnet.nazwa.pl/'
+let g:netrw_dirhist_4='scp://bitnami@192.168.140.64//opt/bitnami/apps/wordpress/htdocs/wp-content/themes/'
+let g:netrw_dirhist_5='scp://bitnami@192.168.140.64//opt/bitnami/apps/wordpress/htdocs/wp-content/themes/mares-test-theme/'
+let g:netrw_dirhist_6='scp://bitnami@192.168.140.64//opt/bitnami/apps/wordpress/htdocs/wp-content/themes/'
